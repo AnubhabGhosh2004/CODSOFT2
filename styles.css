@@ -1,0 +1,135 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    max-width: 30%;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#skills {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#skills ul li:hover {
+    background-color: #ff9900;
+}
+
+
+#projects {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+#resume {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#resume a:hover {
+    color: #ff9900;
+}
+
+
+#contact {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #ff9900;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+header nav ul li a:hover {
+    color: #ff9900;
+}
